@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <defs>
+    <radialGradient id="favInk" cx="45%" cy="40%" r="65%">
+      <stop offset="0%" stopColor="#C93822" />
+      <stop offset="60%" stopColor="#B3321F" />
+      <stop offset="100%" stopColor="#962817" />
+    </radialGradient>
+  </defs>
+
+  <!-- Vermilion Outer Border -->
+  <rect x="4" y="4" width="92" height="92" rx="8" fill="url(#favInk)" stroke="#842213" stroke-width="2.5"/>
+
+  <!-- Double Inner Border -->
+  <rect x="10" y="10" width="80" height="80" rx="5" fill="none" stroke="#F6F1E7" stroke-width="2" stroke-opacity="0.85"/>
+  <rect x="13.5" y="13.5" width="73" height="73" rx="3.5" fill="none" stroke="#F6F1E7" stroke-width="0.8" stroke-opacity="0.45"/>
+
+  <!-- Carved Kanji: 守 (Mamoru) -->
+  <g fill="#F6F1E7">
+    <!-- Roof Radical: 宀 -->
+    <path d="M48.5 22 C48.5 20, 51.5 20, 51.5 22 L52 27.5 C52 28.5, 48 28.5, 48 27.5 Z" />
+    <path d="M25 31.5 C24 33, 23 37, 24 39 C25 39.5, 27 38.5, 28 35 L28.5 32 Z" />
+    <path d="M26 31 L73 31 C74.5 31, 75.5 32, 75 33.5 L73 40 C72 41, 70 41, 70.5 38.5 L71.5 34.5 L27 34.5 C25.5 34.5, 25 32.5, 26 31 Z" />
+
+    <!-- Lower Radical: 寸 -->
+    <path d="M22 47.5 L78 47.5 C79.5 47.5, 79.5 51, 78 51 L22 51 C20.5 51, 20.5 47.5, 22 47.5 Z" />
+    <path d="M57 41 L57 73.5 C57 76.5, 55 79, 50 79 C46 79, 44.5 77.5, 45 75.5 C45.5 73.5, 48 75, 51 75 C53 75, 53.5 73.5, 53.5 71.5 L53.5 41 C53.5 39.5, 57 39.5, 57 41 Z" />
+    <path d="M37 57 C36 55.5, 39 54, 41 55.5 L43 59 C44 61, 41 62.5, 39.5 61 Z" />
+
+    <!-- NP Monogram -->
+    <text x="73" y="79" font-family="'JetBrains Mono', ui-monospace, monospace" font-size="9" font-weight="800" text-anchor="middle" letter-spacing="-0.5">NP</text>
+  </g>
+</svg>
